@@ -1,1 +1,2 @@
-document.body.textContent = "Hello World"
+const output = document.getElementById("output")
+output.textContent = "Hello World"
