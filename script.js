@@ -5,5 +5,6 @@ output.textContent = "Hello World"
 
 
 setInterval(()=>{
-  output.textContent = names[index % names.length]
+  output.textContent = names[index]
+  index += 1 % names.length
 }, 750)
